@@ -1,0 +1,56 @@
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+build
+DerivedData
+*.hmap
+*.ipa
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Pods
+Carthage
+Gemfile.lock
+.idea
+*.xcworkspace
+*.zip
+fastlane/*.xml
+fastlane/test_output
+fastlane/downloads
+*.framework
+*.cer
+*.certSigningRequest
+Logs/
+ModuleCache
+*.generated.swift
+Index/
+
+### Sonar ###
+reports/
+.scannerwork
+
+### VisualStudioCode ###
+.vscode
+
+AppConfigs.plist
+
+/vendor
+.bundle/

@@ -18,12 +18,17 @@ struct RealmEntity<Base: Codable> {
     }
     
     func save(entities: [Base]) {
-        objcProxy.save(entities.map { entity in
-            return try! JSONEncoder().encode(entity)
-        }.map { data in
-            let toObjc = JsonToObjc(superclass: Object.self, name: String(describing: Base.self), andData: data)
+        let objectsToSave = try! entities
+        .map(JSONEncoder().encode)
+        .map { data -> Object in
+            let toObjc: JsonToObjc<Object> = JsonToObjc(superclass: Object.self, name: String(describing: Base.self), andData: data)
             return toObjc.getObject()
-        })
+        }
+        
+        let realm = try! Realm()
+        try! realm.write {
+            realm.add(objectsToSave)
+        }
     }
     
 }

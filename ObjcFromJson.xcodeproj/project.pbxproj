@@ -15,7 +15,6 @@
 		272E82862273D99A0098BE83 /* JsonToObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E82852273D99A0098BE83 /* JsonToObjc.m */; };
 		272E82882273ED3C0098BE83 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E82872273ED3C0098BE83 /* Timeline.swift */; };
 		272E828A2273ED810098BE83 /* RealmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E82892273ED810098BE83 /* RealmEntity.swift */; };
-		272E828D227405EE0098BE83 /* RealmProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E828C227405EE0098BE83 /* RealmProxy.m */; };
 		7A77534014C49F1FD76C0A6D /* Pods_ObjcFromJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99317AC7C0C473A31CBA7B6 /* Pods_ObjcFromJson.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,8 +31,6 @@
 		272E82852273D99A0098BE83 /* JsonToObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToObjc.m; sourceTree = "<group>"; };
 		272E82872273ED3C0098BE83 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
 		272E82892273ED810098BE83 /* RealmEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmEntity.swift; sourceTree = "<group>"; };
-		272E828B227405EE0098BE83 /* RealmProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmProxy.h; sourceTree = "<group>"; };
-		272E828C227405EE0098BE83 /* RealmProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmProxy.m; sourceTree = "<group>"; };
 		6B8A673B6DB1B06680C955B0 /* Pods-ObjcFromJson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcFromJson.release.xcconfig"; path = "Target Support Files/Pods-ObjcFromJson/Pods-ObjcFromJson.release.xcconfig"; sourceTree = "<group>"; };
 		CC599D5027429C43907F9B7D /* Pods-ObjcFromJson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcFromJson.debug.xcconfig"; path = "Target Support Files/Pods-ObjcFromJson/Pods-ObjcFromJson.debug.xcconfig"; sourceTree = "<group>"; };
 		F99317AC7C0C473A31CBA7B6 /* Pods_ObjcFromJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcFromJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,8 +78,6 @@
 				272E82802273D7F50098BE83 /* ObjcFromJson-Bridging-Header.h */,
 				272E82842273D99A0098BE83 /* JsonToObjc.h */,
 				272E82852273D99A0098BE83 /* JsonToObjc.m */,
-				272E828B227405EE0098BE83 /* RealmProxy.h */,
-				272E828C227405EE0098BE83 /* RealmProxy.m */,
 				272E82872273ED3C0098BE83 /* Timeline.swift */,
 				272E82892273ED810098BE83 /* RealmEntity.swift */,
 			);
@@ -233,7 +228,6 @@
 				272E828A2273ED810098BE83 /* RealmEntity.swift in Sources */,
 				272E82712273D7C20098BE83 /* ViewController.swift in Sources */,
 				272E82862273D99A0098BE83 /* JsonToObjc.m in Sources */,
-				272E828D227405EE0098BE83 /* RealmProxy.m in Sources */,
 				272E826F2273D7C20098BE83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

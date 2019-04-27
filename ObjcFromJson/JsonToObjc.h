@@ -11,13 +11,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JsonToObjc : NSObject
+@interface JsonToObjc<ObjectType> : NSObject
 
 - (instancetype)initWithSuperclass:(Class)superclass
                               name:(NSString *)name
                            andData:(NSData *)data;
 
-- (RLMObject *)getObject;
+- (ObjectType)getObject;
 
 @end
 

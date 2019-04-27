@@ -12,6 +12,11 @@
 		272E82742273D7C20098BE83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272E82722273D7C20098BE83 /* Main.storyboard */; };
 		272E82762273D7C40098BE83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272E82752273D7C40098BE83 /* Assets.xcassets */; };
 		272E82792273D7C40098BE83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272E82772273D7C40098BE83 /* LaunchScreen.storyboard */; };
+		272E82862273D99A0098BE83 /* JsonToObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E82852273D99A0098BE83 /* JsonToObjc.m */; };
+		272E82882273ED3C0098BE83 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E82872273ED3C0098BE83 /* Timeline.swift */; };
+		272E828A2273ED810098BE83 /* RealmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E82892273ED810098BE83 /* RealmEntity.swift */; };
+		272E828D227405EE0098BE83 /* RealmProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E828C227405EE0098BE83 /* RealmProxy.m */; };
+		7A77534014C49F1FD76C0A6D /* Pods_ObjcFromJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99317AC7C0C473A31CBA7B6 /* Pods_ObjcFromJson.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,16 @@
 		272E82752273D7C40098BE83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		272E82782273D7C40098BE83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		272E827A2273D7C40098BE83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272E82802273D7F50098BE83 /* ObjcFromJson-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjcFromJson-Bridging-Header.h"; sourceTree = "<group>"; };
+		272E82842273D99A0098BE83 /* JsonToObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonToObjc.h; sourceTree = "<group>"; };
+		272E82852273D99A0098BE83 /* JsonToObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToObjc.m; sourceTree = "<group>"; };
+		272E82872273ED3C0098BE83 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		272E82892273ED810098BE83 /* RealmEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmEntity.swift; sourceTree = "<group>"; };
+		272E828B227405EE0098BE83 /* RealmProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmProxy.h; sourceTree = "<group>"; };
+		272E828C227405EE0098BE83 /* RealmProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmProxy.m; sourceTree = "<group>"; };
+		6B8A673B6DB1B06680C955B0 /* Pods-ObjcFromJson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcFromJson.release.xcconfig"; path = "Target Support Files/Pods-ObjcFromJson/Pods-ObjcFromJson.release.xcconfig"; sourceTree = "<group>"; };
+		CC599D5027429C43907F9B7D /* Pods-ObjcFromJson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcFromJson.debug.xcconfig"; path = "Target Support Files/Pods-ObjcFromJson/Pods-ObjcFromJson.debug.xcconfig"; sourceTree = "<group>"; };
+		F99317AC7C0C473A31CBA7B6 /* Pods_ObjcFromJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcFromJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A77534014C49F1FD76C0A6D /* Pods_ObjcFromJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,8 @@
 			children = (
 				272E826D2273D7C20098BE83 /* ObjcFromJson */,
 				272E826C2273D7C20098BE83 /* Products */,
+				A185861F6911FFE5B32822BB /* Pods */,
+				598C1752DB08A3370F5CC81F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,32 @@
 				272E82752273D7C40098BE83 /* Assets.xcassets */,
 				272E82772273D7C40098BE83 /* LaunchScreen.storyboard */,
 				272E827A2273D7C40098BE83 /* Info.plist */,
+				272E82802273D7F50098BE83 /* ObjcFromJson-Bridging-Header.h */,
+				272E82842273D99A0098BE83 /* JsonToObjc.h */,
+				272E82852273D99A0098BE83 /* JsonToObjc.m */,
+				272E828B227405EE0098BE83 /* RealmProxy.h */,
+				272E828C227405EE0098BE83 /* RealmProxy.m */,
+				272E82872273ED3C0098BE83 /* Timeline.swift */,
+				272E82892273ED810098BE83 /* RealmEntity.swift */,
 			);
 			path = ObjcFromJson;
+			sourceTree = "<group>";
+		};
+		598C1752DB08A3370F5CC81F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F99317AC7C0C473A31CBA7B6 /* Pods_ObjcFromJson.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A185861F6911FFE5B32822BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC599D5027429C43907F9B7D /* Pods-ObjcFromJson.debug.xcconfig */,
+				6B8A673B6DB1B06680C955B0 /* Pods-ObjcFromJson.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 272E827D2273D7C40098BE83 /* Build configuration list for PBXNativeTarget "ObjcFromJson" */;
 			buildPhases = (
+				2601C18334C9B0A43EABEE2D /* [CP] Check Pods Manifest.lock */,
 				272E82672273D7C20098BE83 /* Sources */,
 				272E82682273D7C20098BE83 /* Frameworks */,
 				272E82692273D7C20098BE83 /* Resources */,
+				4788A90D203516C59F29D432 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +140,7 @@
 				TargetAttributes = {
 					272E826A2273D7C20098BE83 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,12 +175,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2601C18334C9B0A43EABEE2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjcFromJson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4788A90D203516C59F29D432 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjcFromJson/Pods-ObjcFromJson-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjcFromJson/Pods-ObjcFromJson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		272E82672273D7C20098BE83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272E82882273ED3C0098BE83 /* Timeline.swift in Sources */,
+				272E828A2273ED810098BE83 /* RealmEntity.swift in Sources */,
 				272E82712273D7C20098BE83 /* ViewController.swift in Sources */,
+				272E82862273D99A0098BE83 /* JsonToObjc.m in Sources */,
+				272E828D227405EE0098BE83 /* RealmProxy.m in Sources */,
 				272E826F2273D7C20098BE83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +378,10 @@
 		};
 		272E827E2273D7C40098BE83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC599D5027429C43907F9B7D /* Pods-ObjcFromJson.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47LVS8UB5Q;
 				INFOPLIST_FILE = ObjcFromJson/Info.plist;
@@ -291,6 +391,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.copyisright.ObjcFromJson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjcFromJson/ObjcFromJson-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +400,10 @@
 		};
 		272E827F2273D7C40098BE83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8A673B6DB1B06680C955B0 /* Pods-ObjcFromJson.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47LVS8UB5Q;
 				INFOPLIST_FILE = ObjcFromJson/Info.plist;
@@ -309,6 +413,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.copyisright.ObjcFromJson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjcFromJson/ObjcFromJson-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

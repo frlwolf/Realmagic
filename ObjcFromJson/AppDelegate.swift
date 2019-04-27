@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let entity1 = Timeline(id: 1, name: "Olar", sent: 1)
+        let entity3 = Timeline(id: 3, name: "Mundo", sent: 0)
+        
+        let realmEntity = RealmEntity<Timeline>()
+        realmEntity.save(entities: [entity1, entity3])
+        
         return true
     }
 

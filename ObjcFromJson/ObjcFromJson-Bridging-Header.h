@@ -3,4 +3,3 @@
 //
 
 #import "JsonToObjc.h"
-#import "RealmProxy.h"

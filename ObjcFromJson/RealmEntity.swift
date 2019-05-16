@@ -11,12 +11,6 @@ import RealmSwift
 
 struct RealmEntity<Base: Codable> {
     
-    private let objcProxy: RealmProxy
-    
-    init() {
-        objcProxy = RealmProxy()
-    }
-    
     func save(entities: [Base]) {
         let objectsToSave = try! entities
         .map(JSONEncoder().encode)
